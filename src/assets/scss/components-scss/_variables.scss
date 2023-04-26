@@ -1,0 +1,76 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+// html {
+//   --color-principal: #ce142b;
+//   ;
+//   --color-principal-dark: #b01630;
+//   --color-principal-transparent: var(--color-schilling-transparent);
+// }
+
+// html[data-theme="dark"] {
+//   --color-principal: #0073B1;
+//   --color-principal-dark: #003b5a;
+//   --color-principal-transparent: var(--color-app-transparent);
+// }
+
+:root {
+  --font: 'Poppins', Helvetica, Arial, Sans-Serif;
+
+
+  --color-principal: var(--color-upload-dark);
+  --color-principal-dark: var(--color-upload);
+
+
+
+  --color-schilling: rgb(204, 20, 42);
+  --color-schilling-dark: rgb(176, 22, 48);
+  --color-schilling-transparent: rgba(208, 0, 26, 0.80);
+  --color-app-interno: #0073b1;
+  --color-app-interno-dark: rgb(0, 59, 90);
+  --color-app-transparent: rgba(0, 115, 177, 0.80);
+
+  --color-text: #222222;
+  --color-black-opacity: hsla(0, 0%, 1%, 0.80);
+  --color-bg-opacity: hsla(0, 0%, 17%, 0.576);
+
+  --color-white: #ffffff;
+  --color-white-opacity: rgba(255, 255, 255, 0.63);
+
+  --color-gray-dark: #333D46;
+  --color-gray: #949494;
+  --color-gray-1: #c8c8c8;
+  --color-gray-2: #eaeaea;
+  --color-gray-3: #f3f3f3;
+
+
+  --color-black: #131313;
+  --color-warn: #F2E205;
+  --color-info: #056CF2;
+  --color-green: #00ad00;
+  --color-green-dark: #008f53;
+  --color-green-gradient: #d4e9e2;
+  --color-green-pastel: #09BD9B;
+  --color-red: #e6061d;
+  --color-upload: #17a2b8;
+  --color-upload-dark: #127585;
+
+  --border-schilling: 40px;
+  --border-app: 5px;
+  --border: 1px solid var(--color-gray-2);
+  --border-card: 2px solid var(--color-gray-2);
+  --border-oscuro: 1px solid var(--color-gray);
+
+  --box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+  --box-shadow-down: 0 4px 2px 0px rgba(0, 0, 0, .10), 0 4px 1px -2px rgba(0, 0, 0, .10);
+
+  //AGENDAMIENTO WEB
+  --color-confirmado: #034AA6;
+  --color-asistio: rgba(98, 191, 4, 1);
+  --color-asistio-dark: rgb(83, 163, 4);
+  --color-ausente: rgba(242, 138, 46, 1);
+  --color-ausente-dark: rgb(196, 111, 37);
+
+
+}
