@@ -18,5 +18,8 @@ export const ButtonMain = styled.button`
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  height: calc(1.2em + 0.75rem + 2px);
+  height: calc(1.5em + 0.75rem + 2px);
+  &:hover {
+    color: yellowgreen;
+  }
 `;

@@ -4,12 +4,26 @@ const CardListItem = ({ dataList, onClickItem }) => {
   return (
     <MainList>
       {dataList.map((data) => (
-        <div key={data.idDrink}>
-          <div className="box-img">
-            <p name={data.strDrink} id={data.idDrink} className="title" onClick={onClickItem}>
+        <div className="carditem glow-on-hover" key={data.idDrink}>
+          
+            <img className="face" src={data.strDrinkThumb} alt="drink" />
+        
+          <div className="body">
+            <p
+              className="title"
+              name={data.strDrink}
+              id={data.idDrink}
+              onClick={onClickItem}
+            >
               {data.strDrink}
             </p>
-            <img src={data.strDrinkThumb} alt="drink" />
+            <button
+              name={data.strDrink}
+              id={data.idDrink}
+              onClick={onClickItem}
+            >
+              Read More
+            </button>
           </div>
         </div>
       ))}

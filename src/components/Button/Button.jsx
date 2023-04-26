@@ -1,9 +1,9 @@
 import { ButtonMain } from "./StyledButton";
 
-const Button = ({ onClick, title, id, activo }) => {
+const Button = ({ children, onClick, id, activo }) => {
   return (
     <ButtonMain activo={activo} id={id} onClick={onClick}>
-      {title}
+      {children}
     </ButtonMain>
   );
 };

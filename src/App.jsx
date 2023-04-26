@@ -55,7 +55,6 @@ function App() {
   };
 
   const fetchSearch = useCallback(async (value) => {
-
     const response = await CocktailAPI.fetchSearch(value);
 
     if (response !== null) {
@@ -86,7 +85,7 @@ function App() {
       let measure = transformResult.filter((item) =>
         item.title.includes("strMeasure")
       );
-  
+
       let newObj = {
         id: response[0].idDrink,
         name: response[0].strDrink,
@@ -124,15 +123,29 @@ function App() {
             <Button
               id="1"
               onClick={changeDrink}
-              title="drinks without alcohol"
+              title="without alcohol"
               activo={btnActivo === "1" ? true : false}
-            />
+            >
+              <img
+                className={s.img}
+                src="/src/assets/image/icon_coktail_2.svg"
+                alt=""
+              />
+              <p className={s.textButton}> without alcohol</p>
+            </Button>
             <Button
               id="2"
-              title="drinks with alcohol"
+              title="with alcohol"
               onClick={changeDrink}
               activo={btnActivo === "2" ? true : false}
-            />
+            >
+              <img
+                className={s.img}
+                src="/src/assets/image/icon_coktail.svg"
+                alt=""
+              />
+              <p className={s.textButton}> with alcohol</p>
+            </Button>
           </div>
 
           <div>

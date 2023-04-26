@@ -41,7 +41,7 @@ export const FooterContainer = styled.footer`
   padding-left: 1em;
   padding-right: 1em;
 
-  // grid-template-columns: 6fr 1fr;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,20 +50,17 @@ export const FooterContainer = styled.footer`
   background-color: var(--color-principal);
   display: grid;
   transition: background-color 0.5s ease;
-  /* grid-template-columns: 1fr 80px; */
   justify-items: center;
 
-  // align-items: center;
+
 
   .text-footer {
     color: white;
-    // padding-left: 37px;
     text-align: center;
   }
 
   .box-btn {
-    max-height: 100%;
-    // padding-right: 30px;
+    max-height: 100%; 
     position: absolute;
     top: 0;
     right: 0;
