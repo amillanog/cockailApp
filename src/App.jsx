@@ -110,27 +110,23 @@ function App() {
   return (
     <>
       <Header>
-        <div className="main-header">
+        <div className={s.box_logo}>
           <Logo src={logoImg} />
         </div>
-      </Header>
-      <Main>
-        <section>
-          <div className={s.box_search}>
-            <Search onSubmit={fetchSearch} />
-          </div>
-          <div className={s.box_btn_categori}>
+        <div className={s.box_search}>
+          <Search onSubmit={fetchSearch} />
+          <div className={s.box_btn_search}>
             <Button
               id="1"
               onClick={changeDrink}
               title="without alcohol"
               activo={btnActivo === "1" ? true : false}
             >
-              <img
+              {/* <img
                 className={s.img}
                 src="/src/assets/image/icon_coktail_2.svg"
                 alt=""
-              />
+              /> */}
               <p className={s.textButton}> without alcohol</p>
             </Button>
             <Button
@@ -139,22 +135,25 @@ function App() {
               onClick={changeDrink}
               activo={btnActivo === "2" ? true : false}
             >
-              <img
+              {/* <img
                 className={s.img}
                 src="/src/assets/image/icon_coktail.svg"
                 alt=""
-              />
+              /> */}
               <p className={s.textButton}> with alcohol</p>
             </Button>
           </div>
-
-          <div>
-            <h1 className={s.main_title}>{mainTitle}</h1>
-            <CardListItem
-              onClickItem={fechtShowDetails}
-              dataList={currentCocktail}
-            />
-          </div>
+        </div>
+        <div className={s.main_title}>
+          <p>{mainTitle}</p>
+        </div>
+      </Header>
+      <Main>
+        <section>
+          <CardListItem
+            onClickItem={fechtShowDetails}
+            dataList={currentCocktail}
+          />
         </section>
         <Modal
           title="Detail"

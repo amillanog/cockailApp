@@ -1,26 +1,50 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+
+/* Color Theme Swatches in Hex */
+$One-1-hex: #704BBF;
+$One-2-hex: #F2CF63;
+$One-3-hex: #F2784B;
+$One-4-hex: #F29F8D;
+$One-5-hex: #F24444;
+
+/* Color Theme Swatches in RGBA */
+$Illustrations-for-Cana-One-1-rgba: rgba(111, 74, 191, 1);
+$Illustrations-for-Cana-One-2-rgba: rgba(242, 206, 99, 1);
+$Illustrations-for-Cana-One-3-rgba: rgba(242, 119, 75, 1);
+$Illustrations-for-Cana-One-4-rgba: rgba(242, 159, 140, 1);
+$Illustrations-for-Cana-One-5-rgba: rgba(242, 67, 67, 1);
+
+/* Color Theme Swatches in HSLA */
+$Illustrations-for-Cana-One-1-hsla: hsla(258, 47, 52, 1);
+$Illustrations-for-Cana-One-2-hsla: hsla(45, 84, 66, 1);
+$Illustrations-for-Cana-One-3-hsla: hsla(16, 86, 62, 1);
+$Illustrations-for-Cana-One-4-hsla: hsla(11, 79, 75, 1);
+$Illustrations-for-Cana-One-5-hsla: hsla(0, 87, 60, 1);
 
 
 
 :root {
   --font: 'Poppins', Helvetica, Arial, Sans-Serif;
+  --color-1-hex: #704BBF;
+  --color-2-hex: #F2CF63;
+  --color-3-hex: #F2784B;
+  --color-4-hex: #F29F8D;
+  --color-5-hex: #F24444;
 
+  --color-1-opacity: rgba(111, 74, 191, .7);
+--color-2-opacity: rgba(242, 206, 99, .7);
+--color-3-opacity: rgba(242, 119, 75, .7);
+--color-4-opacity: rgba(242, 159, 140, .7);
+--color-5-opacity: rgba(242, 67, 67, .7);
 
-  --color-principal: var(--color-upload-dark);
-  --color-principal-dark: var(--color-upload);
-
-
-
-  --color-schilling: rgb(204, 20, 42);
-  --color-schilling-dark: rgb(176, 22, 48);
-  --color-schilling-transparent: rgba(208, 0, 26, 0.80);
-  --color-app-interno: #0073b1;
-  --color-app-interno-dark: rgb(0, 59, 90);
-  --color-app-transparent: rgba(0, 115, 177, 0.80);
-
+  --color-principal: var(--color-1-hex);
   --color-text: #222222;
+  --color-title: var(--color-1-hex);
+
+
+
+
   --color-black-opacity: hsla(0, 0%, 1%, 0.80);
   --color-bg-opacity: hsla(0, 0%, 17%, 0.576);
 
@@ -54,12 +78,8 @@
   --box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
   --box-shadow-down: 0 4px 2px 0px rgba(0, 0, 0, .10), 0 4px 1px -2px rgba(0, 0, 0, .10);
 
-  //AGENDAMIENTO WEB
-  --color-confirmado: #034AA6;
-  --color-asistio: rgba(98, 191, 4, 1);
-  --color-asistio-dark: rgb(83, 163, 4);
-  --color-ausente: rgba(242, 138, 46, 1);
-  --color-ausente-dark: rgb(196, 111, 37);
+
+
 
 
 }

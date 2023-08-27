@@ -1,7 +1,7 @@
 import { MainContainer } from "./StyledLayaout";
 
-const Main = ({ children }) => 
+const Main = ({ children }) => (
   <MainContainer className="scroll">{children}</MainContainer>
-
+);
 
 export default Main;

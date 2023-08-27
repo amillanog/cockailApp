@@ -12,8 +12,8 @@ export const MainModal = styled.div`
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
-  transform: scale3d(0, 0, 0);
-  opacity: 0;
+  /* transform: scale3d(0, 0, 0);
+  opacity: 0; */
 
   .modal-conten {
     background-color: var(--color-white);
@@ -25,13 +25,13 @@ export const MainModal = styled.div`
     display: grid;
     grid-template-rows: 2.5em 1fr 3em;
     max-width: 90%;
-    animation-name: openContent;
+    /* animation-name: openContent;
     animation-duration: 0.3s;
     animation-delay: 0.1s;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99);
-    transform: scale3d(0, 0, 0);
-    opacity: 0;
+    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99); */
+    /* transform: scale3d(0, 0, 0);
+    opacity: 0; */
 
     .modalHeader {
       display: grid;
@@ -58,10 +58,10 @@ export const MainModal = styled.div`
 
   &.modal-open {
     display: grid;
-    animation-name: open;
+    /* animation-name: open;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99);
+    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99); */
   }
 
   @keyframes open {

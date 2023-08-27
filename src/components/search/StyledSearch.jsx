@@ -6,8 +6,8 @@ export const BoxInputSearch = styled.div`
     background: rgb(0, 0, 0);
     background: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(1, 22, 43, 1) 100%
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(1, 22, 43, 0.5) 100%
     );
     display: block;
     width: 100%;
@@ -20,6 +20,7 @@ export const BoxInputSearch = styled.div`
     color: white;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
+    
     &::placeholder {
       color: rgb(194, 194, 194);
     }

@@ -1,66 +1,45 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(1, 22, 43, 1) 100%
-  );
+  display: grid;
+  grid-template-rows: 3em 1fr;
   grid-column: span 3;
-  .main-header {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 20px;
-    position: relative;
-  }
+  gap:.5em;
+  background-image: url(../src/assets/image/bg-search.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: var(--box-shadow-down);
+  position: relative;
 `;
 
 export const MainContainer = styled.main`
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: calc(100vh - 5.5em);
-  padding-top: 2em;
-  padding-bottom: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-height: calc(100vh - 16.5em);
+  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
 `;
 
 export const FooterContainer = styled.footer`
-  display: grid;
   grid-column: span 3;
-  position: relative;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(1, 22, 43, 1) 100%
-  );
+  background-color: #0D0D0D;
   padding-left: 1em;
   padding-right: 1em;
-
-
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: span 3;
-  position: relative;
-  background-color: var(--color-principal);
-  display: grid;
-  transition: background-color 0.5s ease;
-  justify-items: center;
-
-
 
   .text-footer {
     color: white;
     text-align: center;
+    font-size: 0.8em;
   }
 
   .box-btn {
-    max-height: 100%; 
+    max-height: 100%;
     position: absolute;
     top: 0;
     right: 0;
