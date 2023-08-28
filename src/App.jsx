@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Header from "./components/layout/Header";
 import Logo from "./components/Logo/Logo";
 import logoImg from "./assets/image/logo.svg";
+import bgImgHeader from "./assets/image/bg-search.jpg";
 import Main from "./components/layout/Main";
 import Footer from "./components/layout/Footer";
 import CardListItem from "./components/CardListItem/CardListItem";
@@ -110,11 +111,7 @@ function App() {
   return (
     <>
       <Header>
-        <img
-          className={s.img_bg}
-          src="/src/assets/image/bg-search.jpg"
-          alt="background image"
-        />
+        <img className={s.img_bg} src={bgImgHeader} alt="background image" />
         <div className={s.box_logo}>
           <Logo src={logoImg} />
         </div>
@@ -126,7 +123,7 @@ function App() {
               onClick={changeDrink}
               title="without alcohol"
               activo={btnActivo === "1" ? true : false}
-            >             
+            >
               <p className={s.textButton}> without alcohol</p>
             </Button>
             <Button
@@ -134,7 +131,7 @@ function App() {
               title="with alcohol"
               onClick={changeDrink}
               activo={btnActivo === "2" ? true : false}
-            >           
+            >
               <p className={s.textButton}> with alcohol</p>
             </Button>
           </div>
