@@ -5,10 +5,10 @@ export const HeaderContainer = styled.header`
   grid-template-rows: 3em 1fr;
   grid-column: span 3;
   gap:.5em;
-  background-image: url(../src/assets/image/bg-search.jpg);
+  /* background-image: url(../src/assets/image/bg-search.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   box-shadow: var(--box-shadow-down);
   position: relative;
 `;
