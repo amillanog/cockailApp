@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainList = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   grid-gap: 2em;
 
   .carditem {

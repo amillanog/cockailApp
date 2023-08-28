@@ -111,11 +111,10 @@ function App() {
   return (
     <>
       <Header>
-        <img className={s.img_bg} src={bgImgHeader} alt="background image" />
-        <div className={s.box_logo}>
-          <Logo src={logoImg} />
-        </div>
         <div className={s.box_search}>
+          <div className={s.box_logo}>
+            <Logo src={logoImg} />
+          </div>
           <Search onSubmit={fetchSearch} />
           <div className={s.box_btn_search}>
             <Button
@@ -139,6 +138,7 @@ function App() {
         <div className={s.main_title}>
           <p>{mainTitle}</p>
         </div>
+        <img className={s.img_bg} src={bgImgHeader} alt="background image" />
       </Header>
       <Main>
         <section>

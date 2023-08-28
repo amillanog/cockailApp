@@ -1,16 +1,9 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
-  display: grid;
-  grid-template-rows: 3em 1fr;
+export const HeaderContainer = styled.header` 
   grid-column: span 3;
-  gap:.5em;
-  /* background-image: url(../src/assets/image/bg-search.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   box-shadow: var(--box-shadow-down);
-  position: relative;
+  position: relative; 
 `;
 
 export const MainContainer = styled.main`
@@ -25,7 +18,7 @@ export const MainContainer = styled.main`
 
 export const FooterContainer = styled.footer`
   grid-column: span 3;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   padding-left: 1em;
   padding-right: 1em;
   display: flex;
