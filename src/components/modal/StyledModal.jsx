@@ -18,8 +18,10 @@ export const MainModal = styled.div`
     overflow: hidden;
     border-radius: 5px;
     /* padding: 1em; */
-    max-width: calc(90%);
-    height: calc(90%);
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 40%;
+    min-height: 40%;
 
     .modalHeader {
       display: grid;
