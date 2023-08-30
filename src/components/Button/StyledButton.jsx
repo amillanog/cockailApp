@@ -5,7 +5,6 @@ export const ButtonMain = styled.button`
   font-size: 1em;
   font-weight: 400;
   line-height: 1;
-
   padding: 0 20px;
   border: none;
   border-radius: 5px;
@@ -21,7 +20,19 @@ export const ButtonMain = styled.button`
   align-items: center;
   flex-wrap: nowrap;
   height: calc(1.5em + 0.75rem + 2px);
-  &:hover {
-    color: var(--color-2-hex);
+  &:hover p {
+    position: relative;
+    /* padding-bottom:3px; */
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 100%;
+      border-bottom: 3px solid white;
+      border-radius: 5px;
+      animation: animate-title 0.5s ease-out forwards;
+    }
+    
   }
 `;

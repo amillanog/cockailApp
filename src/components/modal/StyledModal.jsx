@@ -12,40 +12,34 @@ export const MainModal = styled.div`
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
-  /* transform: scale3d(0, 0, 0);
-  opacity: 0; */
 
   .modal-conten {
     background-color: var(--color-white);
-    overflow-y: auto;
-    min-height: 40%;
-    max-height: 90%;
+    overflow: hidden;
     border-radius: 5px;
-    padding: 15px;
-    display: grid;
-    grid-template-rows: 2.5em 1fr 3em;
-    max-width: 90%;
-    /* animation-name: openContent;
-    animation-duration: 0.3s;
-    animation-delay: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99); */
-    /* transform: scale3d(0, 0, 0);
-    opacity: 0; */
+    /* padding: 1em; */
+    width: calc(90%);
+    height: calc(90%);
 
     .modalHeader {
       display: grid;
-      grid-template-columns: 1fr 2rem;
-      gap: 1rem;
+      grid-template-columns: 1fr 2em;
+      padding: 0.5em;
+      gap: 0.5em;
 
-      p {
+      .title-header {
         font-weight: 600;
         font-size: 1.3em;
+      }
+      .close {
+        cursor: pointer;
       }
     }
 
     .bodyModal {
-      padding: 20px 0;
+      height: calc(100% - 3em);
+      overflow-y: auto;
+      padding: 1em;
     }
 
     .footerModal {
@@ -58,32 +52,5 @@ export const MainModal = styled.div`
 
   &.modal-open {
     display: grid;
-    /* animation-name: open;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0.63, 1, 0.99); */
-  }
-
-  @keyframes open {
-    0% {
-      transform: scale3d(0, 0, 0);
-      opacity: 0;
-    }
-
-    100% {
-      transform: scale3d(1, 1, 1);
-      opacity: 1;
-    }
-  }
-  @keyframes openContent {
-    0% {
-      transform: scale3d(0, 0, 0);
-      opacity: 0;
-    }
-
-    100% {
-      transform: scale3d(1, 1, 1);
-      opacity: 1;
-    }
   }
 `;

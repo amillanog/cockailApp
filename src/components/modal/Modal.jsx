@@ -14,17 +14,16 @@ const Modal = (props) => {
           className={`${className} ${isOpen && "modal-open"}`}
           onClick={closeModal}
         >
-          <div className="modal-conten scroll" onClick={handleModalContenClick}>
+          <div className="modal-conten " onClick={handleModalContenClick}>
             <div className="modalHeader">
-              <p>{title}</p>
-
+              <p className="title-header">{title}</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="close"
                 onClick={closeModal}
               >
                 <path
@@ -34,7 +33,7 @@ const Modal = (props) => {
                 />
               </svg>
             </div>
-            {children}
+            <div className="bodyModal scroll">{children}</div>
           </div>
         </MainModal>
       ) : null}

@@ -138,7 +138,27 @@ function App() {
         <div className={s.main_title}>
           <p>{mainTitle}</p>
         </div>
-        <img className={s.img_bg} src={bgImgHeader} alt="background image" />
+        <div className={s.bg}>
+ 
+          <div className="bg-fire">
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+            <div class="firefly"></div>
+          </div>
+          <img className={s.img_bg} src={bgImgHeader} alt="background image" />
+        </div>
       </Header>
       <Main>
         <section>

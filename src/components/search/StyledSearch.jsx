@@ -16,7 +16,7 @@ export const BoxInputSearch = styled.div`
     padding-right:35px;
     font-size: 1em;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.4;
     color: white;
     border: 1px solid #ced4da;
     border-radius: 0.25em;
