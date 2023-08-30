@@ -18,7 +18,7 @@ export const MainModal = styled.div`
     overflow: hidden;
     border-radius: 5px;
     /* padding: 1em; */
-    width: calc(90%);
+    max-width: calc(90%);
     height: calc(90%);
 
     .modalHeader {
@@ -39,7 +39,9 @@ export const MainModal = styled.div`
     .bodyModal {
       height: calc(100% - 3em);
       overflow-y: auto;
-      padding: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
     }
 
     .footerModal {
