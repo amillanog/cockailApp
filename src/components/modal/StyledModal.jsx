@@ -14,10 +14,12 @@ export const MainModal = styled.div`
   align-items: center;
 
   .modal-conten {
+    display: grid;
+    grid-template-rows: 3em 1fr;
+    gap: 1em;
     background-color: var(--color-white);
     overflow: hidden;
     border-radius: 5px;
-    /* padding: 1em; */
     max-width: 90%;
     max-height: 90%;
     min-width: 40%;
@@ -39,7 +41,7 @@ export const MainModal = styled.div`
     }
 
     .bodyModal {
-      height: calc(100% - 3em);
+      height: 100%;
       overflow-y: auto;
       padding-left: 1em;
       padding-right: 1em;
