@@ -7,11 +7,11 @@ export const HeaderContainer = styled.header`
 `;
 
 export const MainContainer = styled.main`
-  overflow-y: auto;
+  /* overflow-y: auto; */
   /* overflow-x: hidden; */
-  max-height: calc(100vh - 17em);
-  /* padding-top: 5em;
-  padding-bottom: 2em; */
+  /* max-height: calc(100vh - 17em); */
+  padding-top: 3em;
+  padding-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
   /* @media screen and (max-width: 768px) {

@@ -13,7 +13,8 @@ body {
   letter-spacing: .5px;
   min-height: 100vh;
   line-height: 1.4;
-  overflow: hidden;
+  // overflow: hidden;
+  background-color: red;
 }
 #root {
   display: grid;
