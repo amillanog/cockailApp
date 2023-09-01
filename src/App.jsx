@@ -111,7 +111,7 @@ function App() {
   return (
     <>
       <Header>
-        <div className={s.box_search}>
+        {/* <div className={s.box_search}>
           <div className={s.box_logo}>
             <Logo src={logoImg} />
           </div>
@@ -139,41 +139,38 @@ function App() {
           <p>{mainTitle}</p>
         </div>
         <div className={s.bg}>
- 
           <div className="bg-fire">
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
-            <div class="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
+            <div className="firefly"></div>
           </div>
           <img className={s.img_bg} src={bgImgHeader} alt="background image" />
-        </div>
+        </div> */}
       </Header>
       <Main>
-        <section>
-          <CardListItem
-            onClickItem={fechtShowDetails}
-            dataList={currentCocktail}
-          />
-        </section>
+        {/* <CardListItem
+          onClickItem={fechtShowDetails}
+          dataList={currentCocktail}
+        />
         <Modal
           title="Detail"
           isOpen={isOpenShowDetail}
           closeModal={closeShowDetail}
         >
           <Showdetail data={dataShowDetail} />
-        </Modal>
+        </Modal> */}
       </Main>
       <Footer />
     </>
