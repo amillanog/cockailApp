@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   grid-column: span 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   box-shadow: var(--box-shadow-down);
   position: relative;
 `;
@@ -14,6 +16,9 @@ export const MainContainer = styled.main`
   padding-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
+  grid-column: span 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
   /* @media screen and (max-width: 768px) {
     & {
       height: calc(100vh - 21em);
@@ -23,6 +28,8 @@ export const MainContainer = styled.main`
 
 export const FooterContainer = styled.footer`
   grid-column: span 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   background-color: #0d0d0d;
   padding-left: 1em;
   padding-right: 1em;
