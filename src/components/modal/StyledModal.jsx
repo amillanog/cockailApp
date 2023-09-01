@@ -21,9 +21,9 @@ export const MainModal = styled.div`
     overflow: hidden;
     border-radius: 5px;
     max-width: 90%;
-    max-height: 90%;
+    max-height: calc(100% - 18em);
     min-width: 40%;
-    min-height: 40%;
+    min-height: calc(40% - 18em);
 
     .modalHeader {
       display: grid;
