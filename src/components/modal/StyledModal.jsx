@@ -52,7 +52,7 @@ export const MainModal = styled.div`
 
     .footerModal {
       display: flex;
-      justify-content: space-evenly;
+      /* justify-content: space-evenly; */
       align-items: center;
       flex-wrap: wrap;
     }
