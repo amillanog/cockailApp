@@ -9,8 +9,9 @@ export const MainModal = styled.div`
   top: 0;
   left: 0;
   z-index: 9998;
-  /* grid-template-columns: 1fr; */
-  justify-items: center;
+  grid-template-columns: 1fr;
+  /* justify-items: center; */
+  justify-content:center;
   align-items: center;
 
   .modal-conten {
@@ -44,6 +45,7 @@ export const MainModal = styled.div`
 
     .bodyModal {
       height: 100%;
+      width:100%;
       overflow-y: auto;
       padding-left: 1em;
       padding-right: 1em;
@@ -59,6 +61,6 @@ export const MainModal = styled.div`
   }
 
   &.modal-open {
-    display: flex;
+    display: grid;
   }
 `;
