@@ -18,15 +18,14 @@ export const MainModal = styled.div`
     grid-template-rows: 3em 1fr;
     gap: 1em;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     background-color: var(--color-white);
     overflow: hidden;
     border-radius: 5px;
     max-width: 90%;
-    height: 90%;
-    /* max-height: calc(90% - 7em); */
+    max-height: calc(90% - 3em);
     min-width: 40%;
-    /* min-height: calc(40% - 7em); */
+    min-height: calc(40% - 3em);
 
     .modalHeader {
       display: grid;
