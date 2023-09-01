@@ -12,7 +12,7 @@ export const MainContainer = styled.main`
   /* height:100%; */
   max-height: calc(100vh - 21em);
   padding-top: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   padding-left: 2em;
   padding-right: 2em;
 `;
