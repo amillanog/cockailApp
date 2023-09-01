@@ -17,6 +17,8 @@ export const MainModal = styled.div`
     display: grid;
     grid-template-rows: 3em 1fr;
     gap: 1em;
+    justify-content: center;
+    align-items:center;
     background-color: var(--color-white);
     overflow: hidden;
     border-radius: 5px;
