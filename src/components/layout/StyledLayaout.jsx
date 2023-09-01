@@ -10,7 +10,7 @@ export const MainContainer = styled.main`
   overflow-y: auto;
   overflow-x: hidden;
   /* height:100%; */
-  max-height: calc(100vh - 25.5em);
+  max-height: calc(100vh - 19em);
   /* padding-top: 3em; */
   /* padding-bottom: 2em; */
   padding-left: 2em;
