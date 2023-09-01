@@ -8,10 +8,10 @@ export const HeaderContainer = styled.header`
 
 export const MainContainer = styled.main`
   overflow-y: auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   height: calc(100vh - 17em);
-  padding-top: 5em;
-  padding-bottom: 2em;
+  /* padding-top: 5em;
+  padding-bottom: 2em; */
   padding-left: 2em;
   padding-right: 2em;
   /* @media screen and (max-width: 768px) {

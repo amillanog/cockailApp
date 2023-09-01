@@ -10,7 +10,7 @@ export const MainModal = styled.div`
   left: 0;
   z-index: 9998;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   /* grid-template-columns: 1fr; */
   /* justify-items: center; */
   /* justify-content:center;
@@ -21,7 +21,7 @@ export const MainModal = styled.div`
     grid-template-rows: 3em 1fr;
     gap: 1em;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     background-color: var(--color-white);
     /* overflow: hidden; */
     border-radius: 5px;
@@ -30,11 +30,11 @@ export const MainModal = styled.div`
     max-height: calc(90% - 3em);
     min-height: calc(40% - 3em);
     @media screen and (max-width: 768px) {
-    & {
-      max-height: calc(90% - 6em);
-      min-height: calc(40% - 6em);
+      & {
+        max-height: calc(90% - 6em);
+        min-height: calc(40% - 6em);
+      }
     }
-  }
 
     .modalHeader {
       display: grid;
@@ -53,7 +53,7 @@ export const MainModal = styled.div`
 
     .bodyModal {
       height: 100%;
-      width:100%;
+      width: 100%;
       overflow-y: auto;
       padding-left: 1em;
       padding-right: 1em;
