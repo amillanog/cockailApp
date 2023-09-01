@@ -19,7 +19,7 @@ export const MainContainer = styled.main`
   grid-column: span 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     & {
       height: calc(100vh - 21em);
     }
