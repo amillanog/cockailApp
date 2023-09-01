@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainModal = styled.div`
   display: none;
   background-color: var(--color-black-opacity);
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: fixed;
   top: 0;
