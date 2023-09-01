@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header` 
+export const HeaderContainer = styled.header`
   grid-column: span 3;
   box-shadow: var(--box-shadow-down);
-  position: relative; 
+  position: relative;
 `;
 
 export const MainContainer = styled.main`
@@ -18,6 +18,7 @@ export const MainContainer = styled.main`
 `;
 
 export const FooterContainer = styled.footer`
+  display: grid;
   grid-column: span 3;
   background-color: #0d0d0d;
   /* padding-left: 1em;
