@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
 export const MainContainer = styled.main`
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: calc(100vh - 17.5em);
+  max-height: calc(100vh - 21.5em);
   padding-top: 3em;
   padding-bottom: 2em;
   padding-left: 2em;
