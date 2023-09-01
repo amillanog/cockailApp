@@ -10,7 +10,7 @@ export const MainContainer = styled.main`
   overflow-y: auto;
   overflow-x: hidden;
   /* height:100%; */
-  max-height: calc(100vh - 17.5em);
+  max-height: calc(100vh - 25.5em);
   /* padding-top: 3em; */
   /* padding-bottom: 2em; */
   padding-left: 2em;
@@ -18,7 +18,7 @@ export const MainContainer = styled.main`
 `;
 
 export const FooterContainer = styled.footer`
-  grid-column: span 3;
+  grid-column: span 3 / auto;
   background-color: #0d0d0d;
   padding-left: 1em;
   padding-right: 1em;
