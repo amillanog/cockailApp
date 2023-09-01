@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header` 
+export const HeaderContainer = styled.header`
   grid-column: span 3;
   box-shadow: var(--box-shadow-down);
-  position: relative; 
+  position: relative;
 `;
 
 export const MainContainer = styled.main`
@@ -14,6 +14,11 @@ export const MainContainer = styled.main`
   padding-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
+  @media screen and (max-width: 768px) {
+    & {
+      height: calc(100vh - 21em);
+    }
+  }
 `;
 
 export const FooterContainer = styled.footer`
