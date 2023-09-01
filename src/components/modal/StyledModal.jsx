@@ -23,12 +23,18 @@ export const MainModal = styled.div`
     justify-content: center;
     align-items:center;
     background-color: var(--color-white);
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 5px;
     max-width: 90%;
-    max-height: calc(90% - 3em);
     min-width: 40%;
+    max-height: calc(90% - 3em);
     min-height: calc(40% - 3em);
+    @media screen and (max-width: 768px) {
+    & {
+      max-height: calc(90% - 6em);
+      min-height: calc(40% - 6em);
+    }
+  }
 
     .modalHeader {
       display: grid;
