@@ -9,10 +9,12 @@ export const MainModal = styled.div`
   top: 0;
   left: 0;
   z-index: 9998;
-  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items:center;
+  /* grid-template-columns: 1fr; */
   /* justify-items: center; */
-  justify-content:center;
-  align-items: center;
+  /* justify-content:center;
+  align-items: center; */
 
   .modal-conten {
     display: grid;
@@ -61,6 +63,6 @@ export const MainModal = styled.div`
   }
 
   &.modal-open {
-    display: grid;
+    display: flex;
   }
 `;
